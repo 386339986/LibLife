@@ -6,25 +6,25 @@ A mobile application aims to providing a NEU library service including Seat rese
 ---
 ## Homepage
 
-![](readme_res/home.jpg)
+![](readme_res/home.jpg){:height="50%" width="50%"}
 
 ## Seat Reserve
 
-![](readme_res/seat.jpg)
-![](readme_res/seat2.jpg)
-![](readme_res/seat3.jpg)
+![](readme_res/seat.jpg){:height="50%" width="50%"}
+![](readme_res/seat2.jpg){:height="50%" width="50%"}
+![](readme_res/seat3.jpg){:height="50%" width="50%"}
 ## Book Finder
 
-![](readme_res/book.jpg)
+![](readme_res/book.jpg){:height="50%" width="50%"}
 
 ## Study Mode
 
-![](readme_res/study.jpg)
+![](readme_res/study.jpg){:height="50%" width="50%"}
 
 ## Extend Function - PaperDeliver
 
-![](readme_res/paper.jpg) 
-![](readme_res/deliver.jpg)
+![](readme_res/paper.jpg){:height="50%" width="50%"}
+![](readme_res/deliver.jpg){:height="50%" width="50%"}
 
 ---
 
