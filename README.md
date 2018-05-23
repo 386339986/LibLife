@@ -10,7 +10,7 @@ A mobile application aims to providing a NEU library service including Seat rese
 
 ## Seat Reserve
 
-![](readme_res/seat1.jpg)
+![](readme_res/seat.jpg)
 ![](readme_res/seat2.jpg)
 ![](readme_res/seat3.jpg)
 ## Book Finder
@@ -28,6 +28,6 @@ A mobile application aims to providing a NEU library service including Seat rese
 
 ---
 
-### Thanks for team leader CG Lee, and cooperators XW Chen, QW Wu.
+### Thanks for team leader CG Lee, and cooperators H Tang, XW Chen, QW Wu.
 
 Any problem: email to 973149077@qq.com
