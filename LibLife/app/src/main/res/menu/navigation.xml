@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="主页" />
+    <item
+        android:id="@+id/navigation_seat"
+        android:icon="@drawable/stop"
+        android:title="@string/title_reserve" />
+
+    <item
+        android:id="@+id/navigation_location"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/title_location" />
+
+    <item
+        android:id="@+id/navigation_slippaper"
+        android:icon="@drawable/ic_near_me_black_24dp"
+        android:title="@string/title_slippaper" />
+</menu>

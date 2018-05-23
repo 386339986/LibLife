@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#212121"
+tools:context=".main.LocationChooseFragment">
+
+<ScrollView
+    android:layout_weight="11"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择预约区域"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/floor_1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/floor1_stytle"
+                android:textAlignment="gravity"
+
+                android:text="一楼">
+            </Button>
+            <GridLayout
+                android:id="@+id/floor1_layout"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/btn_shape2"
+                android:layout_height="match_parent"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/first_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/btn_shape3"
+                    android:text="1楼A区"/>
+                <Button
+                    android:id="@+id/first_b"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="1楼B区"/>
+                <Button
+                    android:id="@+id/first_c"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="1楼C区"/>
+                <Button
+                    android:id="@+id/first_d"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="1楼D区"/>
+
+                <Button
+                    android:id="@+id/first_e"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="1楼E区"/>
+                <Button
+                    android:id="@+id/first_f"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="1楼F区"/>
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/floor_2"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@drawable/floor2_stytle"
+
+                android:textAlignment="gravity"
+                android:text="二楼">
+            </Button>
+            <GridLayout
+                android:id="@+id/floor2_layout"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_shape2"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/second_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="2楼A区"/>
+                <Button
+                    android:id="@+id/second_b"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="2楼B区"/>
+                <Button
+                    android:id="@+id/second_c"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:text="2楼C区"/>
+                <Button
+                    android:id="@+id/second_d"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="2楼D区"/>
+
+                <Button
+                    android:id="@+id/second_e"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="2楼E区"/>
+                <Button
+                    android:id="@+id/second_f"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="2楼F区"/>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/floor_3"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@drawable/floor3_stytle"
+
+                android:textAlignment="gravity"
+                android:text="三楼">
+            </Button>
+            <GridLayout
+                android:id="@+id/floor3_layout"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_shape2"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/third_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼A区"/>
+                <Button
+                    android:id="@+id/third_b"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼B区"/>
+                <Button
+                    android:id="@+id/third_c"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼C区"/>
+                <Button
+                    android:id="@+id/third_d"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼D区"/>
+
+                <Button
+                    android:id="@+id/third_e"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼E区"/>
+                <Button
+                    android:id="@+id/third_f"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="3楼F区"/>
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/floor_4"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@drawable/floor4_stytle"
+                android:textAlignment="gravity"
+                android:text="四楼">
+            </Button>
+            <GridLayout
+                android:id="@+id/floor4_layout"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="12dp"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_shape2"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/fourth_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼A区"/>
+                <Button
+                    android:id="@+id/fourth_b"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼B区"/>
+                <Button
+                    android:id="@+id/fourth_c"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼C区"/>
+                <Button
+                    android:id="@+id/fourth_d"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼D区"/>
+
+                <Button
+                    android:id="@+id/fourth_e"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼E区"/>
+                <Button
+                    android:id="@+id/fourth_f"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="4楼F区"/>
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/floor_5"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@drawable/floor5_stytle"
+                android:textAlignment="gravity"
+                android:text="五楼">
+            </Button>
+            <GridLayout
+                android:id="@+id/floor5_layout"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_shape2"
+                android:rowCount="2"
+                android:columnCount="3"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/fifth_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼A区"/>
+                <Button
+                    android:id="@+id/fifth_b"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼B区"/>
+                <Button
+                    android:id="@+id/fifth_c"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼C区"/>
+                <Button
+                    android:id="@+id/fifth_d"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼D区"/>
+
+                <Button
+                    android:id="@+id/fifth_e"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼E区"/>
+                <Button
+                    android:id="@+id/fifth_f"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/btn_shape3"
+                    android:onClick="onChooseClick"
+                    android:text="5楼F区"/>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+</LinearLayout>
